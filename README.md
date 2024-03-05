@@ -48,3 +48,11 @@ This project instantiates two 2KiB memories, one which responds to
 addresses between <b>0 and 512Ki-1</b> and the other which responds to addresses between <b>512Ki and 1M-1</b>.<br>
 Also, instantiates wo I/O devices, one of which responds to port numbers <b>0xFF00
 through 0xFF0F</b> and the other to <b>0x1C00 through 0x1DFF</b>.<br>
+
+Below image taken depicts the use case:
+![image](https://github.com/krishnaachyuth/Interface_RAM_to_8088/assets/34981932/af8314b8-ea8a-45ef-9530-afa7d9a8825e)
+
+Image below taken from [Microprocessors and Interfacing: Programming and Hardware by Douglas V.Hall](https://www.amazon.com/Microprocessors-Interfacing-Programming-Douglas-Hall/dp/0070257426) shows the timing for read, write operation. T<sub>wait</sub> is ignored for this project.
+
+![image](https://github.com/krishnaachyuth/Interface_RAM_to_8088/assets/34981932/76c03445-3cfc-4245-aa68-855cf7efa883)
+
