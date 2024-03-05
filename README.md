@@ -1,7 +1,7 @@
 # Interface_RAM_to_8088
 
 This project involves system-level design and integration, creation and use of SystemVerilog
-interfaces, $readmemh, bus-func/onal models, FSM modeling, and using protected
+interfaces, $readmemh, bus-functional models, FSM modeling, and using protected
 SystemVerilog IP
 
 
