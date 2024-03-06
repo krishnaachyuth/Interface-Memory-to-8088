@@ -1,4 +1,4 @@
-# Interface_RAM_to_8088
+# Interface Memory to 8088
 
 This project involves system-level design and integration, creation and use of SystemVerilog
 interfaces, $readmemh, bus-functional models, FSM modeling, and using protected
