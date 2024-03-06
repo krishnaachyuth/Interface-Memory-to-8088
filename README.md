@@ -36,8 +36,8 @@ Upon sucessfully reset, 8088 svp file reads file called **busops.txt**. The file
  &nbsp;</b>   <br>
 Where, <br>
 <b>time</b> is the elapsed time in CPU clocks, <br> 
-<b>type</b> is either I or M to denoted an I/O or memory operation,<br>
-<b>operation</b> is R or W to denoted read or write, and **address** is a 20-bit address(in hexadecimal).<br> The fields are seperated by tab character.<br>
+<b>type</b> is either I or M to denote an I/O or memory operation,<br>
+<b>operation</b> is R or W to denote read or write, and **address** is a 20-bit address(in hexadecimal).<br> The fields are seperated by tab character.<br>
 Example:
 <b>136  &nbsp;</b>  <b>M  &nbsp;</b>  <b>R  &nbsp;</b>  <b>0x7F30B  &nbsp;</b>  <br>
 Specifies that the processor should perform a memory read operation from location 0x7F30B at clock cycle 136 (or soon therafter if the bus is busy at that time). <br>
