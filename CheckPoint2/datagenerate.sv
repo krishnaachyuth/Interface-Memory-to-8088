@@ -1,5 +1,5 @@
 module top();
-//logic [7:0]Mem[20'h00000:20'h7FFFF];
+
 parameter MEM_LSB = 20'h00000 , MEM_MSB = 20'h7FFFF;
 logic [7:0]Mem1[MEM_MSB:MEM_LSB];
 integer f;
