@@ -1,16 +1,16 @@
-/**********************************************************************/
-/* ECE -571 INTRODUCTION TO SYSTEM VERILOG FOR DESIGN AND VERIFICATION*/
-/*				FINAL PROJECT										  */
-/* Description: The top level module instantiates two 512KiB memories */
+/**************************************************************************************/
+/* ECE -571 INTRODUCTION TO SYSTEM VERILOG FOR DESIGN AND VERIFICATION                */
+/*				FINAL PROJECT					      */
+/* Description: The top level module instantiates two 512KiB memories                 */
 /*				one which responds to addresses between 0 and 512KiB, */
 /*				other which responds to addresses between 1 and 1M-1. */
 /*				Also, instantiates two I/O devices, one which responds*/ 
 /*				to port numbers 0xFF00 through 0xFF0F and other to    */
 /*				0xC100 through 0x1DFF                                 */
-/* Authors : Achyuth Krishna Chepuri (952279119)                      */
-/* 			 Sai Sri Harsha Atmakuri (932141135)                      */
-/*			 Sathwik Reddy Madireddy (920582851)                      */ 
-/**********************************************************************/
+/* Authors : Achyuth Krishna Chepuri (952279119)                                      */
+/* 			 Sai Sri Harsha Atmakuri (932141135)                          */
+/*			 Sathwik Reddy Madireddy (920582851)                          */ 
+/**************************************************************************************/
 
 module top();
 
