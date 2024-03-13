@@ -8,8 +8,8 @@
 /*				to port numbers 0xFF00 through 0xFF0F and other to    */
 /*				0xC100 through 0x1DFF                                 */
 /* Authors : Achyuth Krishna Chepuri (952279119)                                      */
-/* 			 Sai Sri Harsha Atmakuri (932141135)                          */
-/*			 Sathwik Reddy Madireddy (920582851)                          */ 
+/*           Sai Sri Harsha Atmakuri (932141135)                                      */
+/*	     Sathwik Reddy Madireddy (920582851)                                      */ 
 /**************************************************************************************/
 
 module top();
