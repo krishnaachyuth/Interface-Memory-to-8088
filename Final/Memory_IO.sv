@@ -1,11 +1,11 @@
 /**********************************************************************/
 /* ECE -571 INTRODUCTION TO SYSTEM VERILOG FOR DESIGN AND VERIFICATION*/
-/*				FINAL PROJECT										  */
+/*				FINAL PROJECT			      */
 /* Description: This file designs a synthesizable FSM that can be used*/
-/*              as an 8088 bus compatible Memory or I/O module.      */			
+/*              as an 8088 bus compatible Memory or I/O module.       */			
 /* Authors : Achyuth Krishna Chepuri (952279119)                      */
-/* 			 Sai Sri Harsha Atmakuri (932141135)                      */
-/*			 Sathwik Reddy Madireddy (920582851)                      */ 
+/* 	     Sai Sri Harsha Atmakuri (932141135)                      */
+/*	     Sathwik Reddy Madireddy (920582851)                      */ 
 /**********************************************************************/
 
 
