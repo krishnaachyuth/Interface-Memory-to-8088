@@ -22,8 +22,9 @@ logic [7:0]Mem[MEM_MSB:MEM_LSB] ;
 logic [19:0] AddrReg;
 logic [7:0]  DataReg;
 
-typedef  enum logic[5:0] { T1 = 6'b000001 , T2 = 6'b000010 , T3_READ = 6'b000100 , 
-T4_READ = 6'b001000 , T3_WRITE = 6'b010000 , T4_WRITE = 6'b100000 } state_t;
+/*typedef  enum logic[5:0] { T1 = 6'b000001 , T2 = 6'b000010 , T3_READ = 6'b000100 , 
+T4_READ = 6'b001000 , T3_WRITE = 6'b010000 , T4_WRITE = 6'b100000 } state_t;*/
+typedef  enum { T1 , T2 , T3_READ , T4_READ , T3_WRITE , T4_WRITE } state_t;
 
 state_t State, NextState;
 
