@@ -4,8 +4,8 @@
 /* Description : This file Creates an Interface for 8088 pins with    */
 /*                 Processor and a Peripheral modport                 */ 				
 /* Authors : Achyuth Krishna Chepuri (952279119)                      */
-/* 			     Sai Sri Harsha Atmakuri (932141135)                      */
-/*			     Sathwik Reddy Madireddy (920582851)                      */ 
+/* 	     Sai Sri Harsha Atmakuri (932141135)                      */
+/*	     Sathwik Reddy Madireddy (920582851)                      */ 
 /**********************************************************************/
 
 
