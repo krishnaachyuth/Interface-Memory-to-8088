@@ -22,9 +22,8 @@ logic [7:0]Mem[MEM_MSB:MEM_LSB] ;
 logic [19:0] AddrReg;
 logic [7:0]  DataReg;
 
-/*typedef  enum logic[5:0] { T1 = 6'b000001 , T2 = 6'b000010 , T3_READ = 6'b000100 , 
-T4_READ = 6'b001000 , T3_WRITE = 6'b010000 , T4_WRITE = 6'b100000 } state_t;*/
-typedef  enum { T1 , T2 , T3_READ , T4_READ , T3_WRITE , T4_WRITE } state_t;
+typedef  enum logic[5:0] { T1 = 6'b000001 , T2 = 6'b000010 , T3_READ = 6'b000100 , 
+T4_READ = 6'b001000 , T3_WRITE = 6'b010000 , T4_WRITE = 6'b100000 } state_t;
 
 state_t State, NextState;
 
@@ -41,7 +40,7 @@ end
 always_comb
 begin
 NextState = State;
-unique case(State)
+unique0 case(State)
 	T1:       NextState = ( bus.ALE && CS && bus.IOM == ACTIVE ) ? T2 : T1;
 	T2:       NextState = ( bus.RD && bus.WR ) ? T2 : ( ~bus.RD ) ? T3_READ : T3_WRITE;
 	T3_READ:  NextState = T4_READ;
@@ -56,7 +55,7 @@ always_comb
 begin
 {ld_Addr , ld_data , OE , rw} = '0;
  
-unique case(State)
+unique0 case(State)
 	T1: begin
 		end
 	T2: begin
